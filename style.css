@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+   background-image: url(imagens/fundo-site.jpg);
+   height: 90vh;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.folha{
+    background-image: url(imagens/folha1.webp);
+    width: 800px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-position: right;
+    padding: 20px;
+}
+
+.folha2{
+    background-image: url(imagens/folha2.webp);
+    justify-content: end;
+    background-position: left;
+}
+
+main{
+    background-color: aqua;
+    width: 95%;
+    height: 100%;
+}
