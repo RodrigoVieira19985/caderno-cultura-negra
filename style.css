@@ -29,7 +29,7 @@ body{
 }
 
 main{
-    background-color: aqua;
+    border: solid black 4px;
     width: 95%;
     height: 100%;
 }
